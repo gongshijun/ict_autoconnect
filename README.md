@@ -18,3 +18,9 @@ ps： 所里登录验证方式改了，采用了两步认证，以及两级加�
 
 
 其他更加方面的功能，由于时间关系还没有实现
+
+ubuntu 简单安装方式：
+1) sudo apt-get install python-pip
+2) sudo pip install selenium
+3) sudo apt-get install phantomjs
+亲测可行
