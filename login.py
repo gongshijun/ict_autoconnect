@@ -14,7 +14,8 @@ def auto_connect():
 
     browser.find_element_by_id('username').send_keys(username)
     browser.find_element_by_id('password').send_keys(password)
-    browser.find_element_by_id('button').click()
+    #browser.find_element_by_id('button').click()
+    browser.find_element_by_id('form2').submit()
 
     print('sleeping 10s...')
     time.sleep(10)
