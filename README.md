@@ -28,7 +28,9 @@ ubuntu 简单安装方式：
 在ubuntu 16.04下，可能2）和3）中的selenium和phantomjs包无法正常安装，那么你需要按照下面几步手动安装，并修改login.py中的一个函数
 
 + 安装 selenium
+
 https://pypi.python.org/pypi/selenium/
+
 复制这个whl（selenium-3.6.0-py2.py3-none-any.whl (md5) 	Python Wheel 	2.7 	2017-09-25 	902K）的链接，然后用下面的命令安装就可以了
 
 ```
@@ -37,7 +39,9 @@ sudo pip install https://pypi.python.org/packages/48/90/29bcfa7ced2836016a400e82
 
 
 + 安装phantomjs
-去官网(http://phantomjs.org/download.html)下载可执行文件，现在把文件放到路径/usr/local/lib下，然后修改login.py中的命令如下，
+
+去[官网](http://phantomjs.org/download.html)下载可执行文件，现在把文件放到路径/usr/local/lib下，然后修改login.py中的命令如下，
+
 ```
 #browser = webdriver.PhantomJS()
 browser = webdriver.PhantomJS(executable_path='/usr/local/lib/phantomjs-2.1.1-linux-x86_64/bin/phantomjs')
