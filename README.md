@@ -40,7 +40,7 @@ sudo pip install https://pypi.python.org/packages/48/90/29bcfa7ced2836016a400e82
 
 + 安装phantomjs
 
-去[官网](http://phantomjs.org/download.html)下载可执行文件，现在把文件放到路径/usr/local/lib下，然后修改login.py中的命令如下，
+去[官网](http://phantomjs.org/download.html)下载可执行文件，现在把文件放到路径/usr/local/lib下，然后修改权限```sudo chmod -R 777 /usr/local/phantomjs-2.1.1-linux-x86_64/```,最后修改login.py，只需要修改一行即可，
 
 ```
 #browser = webdriver.PhantomJS()
