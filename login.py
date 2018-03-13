@@ -8,7 +8,7 @@ import time
 def auto_connect():
     print('open a phantomJS browser...\n')
     browser = webdriver.PhantomJS()
-    browser.get('http://159.226.39.22')
+    browser.get('https://gw.ict.ac.cn/srun_portal_pc.php?ac_id=1login lo')
 
     username, password = read_conf()
 
