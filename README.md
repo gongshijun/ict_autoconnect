@@ -22,8 +22,13 @@ ps： 所里登录验证方式改了，采用了两步认证，以及两级加�
 ubuntu 简单安装方式：
 1) sudo apt-get install python-pip
 2) sudo pip install selenium
-3) sudo apt-get install phantomjs
-亲测可行
+3) sudo apt-get install phantomjs 亲测可行（这样安装phantomjs可能出现无法使用find_element类型的函数）
+
+推荐使用如下方法安装phantomjs
+apt install nodejs-legacy # just an alias node/nodejs to make npm install work
+apt purge phantomjs       # optionaly
+npm install -g phantomjs  # most important part because apt installation failed for me
+（以上安装实现，于2018/6/12，在ubuntu 16.04 python2.7 下成功运行）
 
 在ubuntu 16.04下，可能2）和3）中的selenium和phantomjs包无法正常安装，那么你需要按照下面几步手动安装，并修改login.py中的一个函数
 
