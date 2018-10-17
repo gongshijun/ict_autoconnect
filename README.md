@@ -52,3 +52,4 @@ sudo pip install https://pypi.python.org/packages/48/90/29bcfa7ced2836016a400e82
 browser = webdriver.PhantomJS(executable_path='/usr/local/lib/phantomjs-2.1.1-linux-x86_64/bin/phantomjs')
 
 ```
+<a href="https://info.flagcounter.com/Y4Mt"><img src="https://s11.flagcounter.com/count2/Y4Mt/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
