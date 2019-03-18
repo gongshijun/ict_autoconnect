@@ -1,3 +1,13 @@
+【2018.02.07更新】
+
+1. 最新版的Selenium已经不再支持Phantomjs，请使用如下命令安装3.6.0旧版。
+
+`pip install https://pypi.python.org/packages/48/90/29bcfa7ced2836016a400e8216e5a4166a71923b05d452ee7ee9e8775156/selenium-3.6.0-py2.py3-none-any.whl`
+
+2. 最新版的py2exe只支持Python3，如需要请自行安装旧版。
+
+====================================================================================
+
 本程序采用Phantomjs + Selenium" 这个python，来实现计算所自动联网程序。
 
 只是简单实现了功能，水平有限，还望见谅。
